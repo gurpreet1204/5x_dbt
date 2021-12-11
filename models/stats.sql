@@ -5,7 +5,6 @@ with dates as (
 ),
 
 stat as (
-
     select Year(cast(date as datetime)) as year,
     MONTHNAME(cast(date as datetime)) as month,
     location,
